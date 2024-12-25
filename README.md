@@ -2,6 +2,8 @@
 
 This project implements a chatbot interface that supports multi-session chat management using the LangChain framework and the Groq model. The system allows users to create, switch between, and manage multiple chat sessions seamlessly.
 
+Access the app in your browser at [Personal Chatbot](https://my-personalchatbot.streamlit.app/)
+
 ---
 
 ## Features
