@@ -49,15 +49,15 @@ You need a valid Groq API key to use the `ChatGroq` model. Replace the placehold
 1. Clone this repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/viswadarshan-024/personal_chatbot.git
+   cd personal_chatbot
    ```
 
 2. Create a virtual environment and activate it:
 
    ```bash
    python -m venv env
-   source env/bin/activate  # On Windows: env\Scripts\activate
+   env\Scripts\activate
    ```
 
 3. Install dependencies:
@@ -75,7 +75,7 @@ You need a valid Groq API key to use the `ChatGroq` model. Replace the placehold
 1. Run the application:
 
    ```bash
-   streamlit run chatbot_interface.py
+   streamlit run app.py
    ```
 
 2. Use the sidebar to:
@@ -89,7 +89,7 @@ You need a valid Groq API key to use the `ChatGroq` model. Replace the placehold
 
 ## Project Structure
 
-- **`chatbot_interface.py`**: The main file containing the Streamlit frontend.
+- **`app.py`**: The main file containing the Streamlit frontend.
 - **`chatbot_core.py`**: Contains core functionalities for session management and chat history.
 
 ---
