@@ -7,7 +7,7 @@ from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import trim_messages
 
-groq_api_key = "api_key"
+groq_api_key =  "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"
 model = ChatGroq(model="llama3-70b-8192", groq_api_key=groq_api_key)
 
 chat_sessions = {}
